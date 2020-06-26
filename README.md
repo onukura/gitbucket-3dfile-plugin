@@ -34,7 +34,7 @@ for deployment.
 
 ## Supported file
 
-Currently only `.stl` file.
+Currently, only `.stl` file is supported.
 
 ## Version
 
