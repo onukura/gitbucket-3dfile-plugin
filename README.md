@@ -1,6 +1,6 @@
 # gitbucket-3dfile-plugin
 
-[![Build Status](https://travis-ci.org/onukura/gitbucket-3dfile-plugin.svg?branch=master)](https://travis-ci.org/onukura/gitbucket-mathjax-plugin)
+[![Build Status](https://travis-ci.org/onukura/gitbucket-3dfile-plugin.svg?branch=master)](https://travis-ci.org/onukura/gitbucket-3dfile-plugin)
 
 A GitBucket plugin for rendering 3d file.  
 Based on [three.js](https://github.com/mrdoob/three.js) and [Three.js-STL-Viewer](https://github.com/kaitlynhova/Three.js-STL-Viewer).
