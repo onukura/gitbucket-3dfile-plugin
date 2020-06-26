@@ -7,7 +7,7 @@ Based on [three.js](https://github.com/mrdoob/three.js) and [Three.js-STL-Viewer
 
 ## Screenshot
 
-![screenshot](https://github.com/onukura/gitbcket-3dfile-plugin/assets/screenshot.gif)
+![screenshot](https://raw.githubusercontent.com/onukura/gitbucket-3dfile-plugin/assets/screenshot.gif)
 
 ## Install
 
