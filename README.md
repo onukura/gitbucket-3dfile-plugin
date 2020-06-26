@@ -34,7 +34,8 @@ for deployment.
 
 ## Supported file
 
-Currently, only `.stl` file is supported.
+Currently, only `.stl` file is supported.  
+A sample file is available [here](https://raw.githubusercontent.com/onukura/gitbucket-3dfile-plugin/assets/gitbucket.stl).
 
 ## Version
 
