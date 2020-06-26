@@ -5,6 +5,10 @@
 A GitBucket plugin for rendering 3d file.  
 Based on [three.js](https://github.com/mrdoob/three.js) and [Three.js-STL-Viewer](https://github.com/kaitlynhova/Three.js-STL-Viewer).
 
+## Screenshot
+
+![screenshot](https://github.com/onukura/gitbcket-3dfile-plugin/assets/screenshot.gif)
+
 ## Install
 
 1. Download *.jar from Releases.
