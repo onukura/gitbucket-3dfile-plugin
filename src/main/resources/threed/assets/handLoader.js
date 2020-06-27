@@ -18,8 +18,8 @@ function init(obj3D, div, ctr) {
   scene.add( new THREE.AmbientLight( 0x999999 ) );
 
   // Grid Setup
-  var grid = new THREE.GridHelper( 20, 20, 0xffffff, 0x555555 );
-  grid.rotateOnAxis( new THREE.Vector3( 1, 0, 0 ), Math.PI / 2 );
+  var grid = new THREE.GridHelper( 20, 20, 0x000000, 0x000000 );
+  grid.rotateOnAxis( new THREE.Vector3( 1, 0, 0 ), 90 * ( Math.PI/180 ) );
   scene.add( grid );
 
   // Camera Setup
