@@ -59,7 +59,8 @@ function init(obj3D, div, ctr) {
     mesh.receiveShadow = true;
     scene.add( mesh );
     render();
-    const radius = mesh.geometry.boundingSphere.radius;
+    // Rescale mesh and Setup camera to fit mesh.
+    const radius = 1.1 * mesh.geometry.boundingSphere.radius;
     const scale = 4 / radius;
     mesh.geometry.computeBoundingSphere();
     mesh.scale.set(scale, scale, scale);
@@ -68,7 +69,6 @@ function init(obj3D, div, ctr) {
     const dist = radius / (Math.sin((fov * (Math.PI / 180)) / 2));
     camera.position.set( 0, dist + 1, dist );
     controls.update();
-    camera.lookAt(grid);
   });
 
 }
