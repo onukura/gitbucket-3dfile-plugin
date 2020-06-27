@@ -8,10 +8,10 @@ function init(obj3D, div, ctr) {
   div.innerHTML = "";
 
   // Setup params
-  var divW = div.offsetWidth;
-  var divH = 600;
-  var divRatio = div.offsetWidth / divH;
-  var fov = 45;
+  const divW = div.offsetWidth;
+  const divH = 600;
+  const divRatio = div.offsetWidth / divH;
+  const fov = 45;
 
   // Scene Init
   scene = new THREE.Scene();
@@ -46,12 +46,12 @@ function init(obj3D, div, ctr) {
   window.addEventListener( 'resize', onWindowResize(divW, divH), false );
 
   // Loader Setup
-  var usewireframe = false
+  var useWireframe = false
   if ( ctr[0].checked ) {
-    usewireframe = true
+    useWireframe = true
   }
   var loader = new THREE.STLLoader();
-  var material = new THREE.MeshPhongMaterial( { color: 0x0e2045, specular: 0x111111, shininess: 200 , wireframe: usewireframe} );
+  var material = new THREE.MeshPhongMaterial( { color: 0x0e2045, specular: 0x111111, shininess: 200 , wireframe: useWireframe} );
   loader.load( obj3D, function ( geometry ) {
     var mesh = new THREE.Mesh( geometry, material );
     mesh.rotation.set(0, 0, -Math.PI);
