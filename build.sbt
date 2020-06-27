@@ -1,5 +1,5 @@
 name := "gitbucket-3dfile-plugin"
 organization := "io.github.gitbucket"
-version := "1.0.0"
+version := "1.0.1"
 scalaVersion := "2.13.0"
 gitbucketVersion := "4.32.0"

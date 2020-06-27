@@ -12,6 +12,7 @@ class Plugin extends gitbucket.core.plugin.Plugin {
   override val description: String = "Rendering 3d file by three.js"
   override val versions: List[Version] = List(
     new Version("0.1.0"),
+    new Version("0.1.1"),
   )
 
   override val assetsMappings = Seq("/threed" -> "/threed/assets")
