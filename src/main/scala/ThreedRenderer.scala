@@ -50,7 +50,7 @@ class ThreedRenderer extends Renderer {
       s"""
          |<script>
          |  function myrender() {
-         |    init("${context.request.getRequestURL + "?raw=true"}", document.getElementById("stl-viewer"), document.getElementsByName("stl-options"))
+         |    init("${context.currentPath + "?raw=true"}", document.getElementById("stl-viewer"), document.getElementsByName("stl-options"))
          |  }
          |</script>
          |""".stripMargin
