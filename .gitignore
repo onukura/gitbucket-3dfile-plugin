@@ -23,3 +23,5 @@ src_managed/
 # Ensime
 .ensime
 .ensime_cache/
+
+/.bsp/
